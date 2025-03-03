@@ -1,3 +1,4 @@
+//Write a constraint for a 4-bit random number such that: the number is between 5 and 10.
 class example;
   rand bit [3:0] num;
   constraint num_c { num>=5; num<=10;}

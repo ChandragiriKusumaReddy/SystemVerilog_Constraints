@@ -13,3 +13,4 @@ module test;
     $display("Value of a=%d",t.a);
   end
 endmodule
+

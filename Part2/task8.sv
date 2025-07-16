@@ -20,7 +20,6 @@ class task8;
   // }
 
 endclass
-
 module test;
   task8 t;
 

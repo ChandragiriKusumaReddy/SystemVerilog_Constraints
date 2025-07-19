@@ -8,4 +8,5 @@
 7. Write a constraint to generate a pattern 5,4,3,2,1 (Reverse Count Pattern)
 8. Write a constraint to fill an array with the first 5 square numbers :1,4,9,16,25.
 9. Write a constraint to randomize an array of size 10 such that the number must be a power of 2, and the randomized numbers in the array must be greater than 8 or       equal to 8.
+
 10.Write a constraint to generate 8-bit random number such that number is divisible by 3, Additionally ensure that the 8-bit number must have an even number of 1's.

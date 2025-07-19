@@ -10,3 +10,4 @@
 8. Write a constraint such that in a queue of size 10, the median value is always 50.
 9. Write a constraint such that the binary representation of a number is palindromic.
 10. Write a constraint to generate a pattern [1,0] alternatively and array of size is 12.
+

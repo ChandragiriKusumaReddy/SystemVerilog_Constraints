@@ -7,7 +7,7 @@ class task2;
     foreach(data[i])
       data[i] inside {[1:100]};
   }
-
+  
   // Conditional even/odd constraint
   constraint cons2 {
     foreach(data[i]) {

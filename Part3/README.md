@@ -5,7 +5,7 @@
 4. Index-based constraint:
 Write a constraint for a rand int data[8] array such that: all values are in the range [10:80], each data[i+1] > data[i] + 3 for all valid i, all values must be even, all values must be unique.
 5. Struct-Based Constraint :Model a packet using a struct inside a class and randomize it with constraints: addr (8-bit): must be a multiple of 4 and in the range [16:128] , data (16-bit): if addr > 64, then data must be even , op (2-bit): 0 = NOP, 1 = READ, 2 = WRITE, 3 = INVALID , Only allow 1 (READ) or 2 (WRITE)
-6. //Struct-Based Bank Transaction: Only bank_id in range [1:5] allowed Amount: For DEPOSIT: multiples of 500,For WITHDRAW: multiples of 1000, and ≤ 10,000, txn_type should not be 0,
+6. Struct-Based Bank Transaction: Only bank_id in range [1:5] allowed Amount: For DEPOSIT: multiples of 500,For WITHDRAW: multiples of 1000, and ≤ 10,000, txn_type should not be 0,
  typedef struct {
   rand bit [2:0] bank_id;
   rand bit [15:0] amount;

@@ -11,4 +11,5 @@ Write a constraint for a rand int data[8] array such that: all values are in the
   rand bit [15:0] amount;
   rand bit [1:0] txn_type; // 1: DEPOSIT, 2: WITHDRAW
  } txn_s;
+7. Index-Dependent Array Constraint: Write a constraint and create a dynamic array of 5 elements (int data[]) such that each element at index i is equal to i * 10.
 
